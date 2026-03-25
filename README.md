@@ -16,13 +16,35 @@
 
 ### Tech Stack
 
-**Languages:** Python, TypeScript, JavaScript
+**Languages:**
 
-**Testing:** Pytest, Playwright, Requests, Pydantic, JMeter
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**Tools:** Git, Docker, GitHub Actions, Allure, Postman
+**Testing & Frameworks:**
 
-**Practices:** API Testing, Contract Testing, CI/CD, Test Architecture
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![JMeter](https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+**Tools & Infrastructure:**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Allure](https://img.shields.io/badge/Allure-FF6B00?style=for-the-badge&logo=allure&logoColor=white)
+
+---
+
+### GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nikolay-Chillev&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikolay-Chillev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
+</p>
 
 ---
 
