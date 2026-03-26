@@ -44,10 +44,10 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| [bg-test-data](https://github.com/Nikolay-Chillev/bg-test-data) | Bulgarian test data generator published on PyPI — EGN, EIK, IBAN with valid checksums | Python, PyPI |
 | [Restful Booker API Framework](https://github.com/Nikolay-Chillev/restful-booker-api-framework) | Enterprise-grade API test automation with 89 tests, Allure reporting, and CI/CD | Python, Pytest, Allure, Docker |
 | [Playwright SauceDemo](https://github.com/Nikolay-Chillev/playwright-saucedemo) | E2E automation with CI/CD and HTML reports | TypeScript, Playwright |
 | [JMeter Performance Project](https://github.com/Nikolay-Chillev/jmeter-performance-project) | Performance testing for JSONPlaceholder API | JMeter |
-| [GitHub API Framework](https://github.com/Nikolay-Chillev/pytest-github-api-framework) | API testing framework with unit, integration, and negative tests | Python, Pytest |
 
 ---
 
