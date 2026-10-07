@@ -8,7 +8,7 @@
 
 - Design and build test automation frameworks from scratch
 - API testing with Python, Pytest, and Requests
-- UI testing with Playwright and TypeScript
+- UI testing with Playwright (Python and TypeScript)
 - Performance testing with JMeter
 - CI/CD pipelines with GitHub Actions and Docker
 
@@ -44,6 +44,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
+| [Magento QA](https://github.com/Nikolay-Chillev/magento-qa) | Test automation for a Magento 2 store — API, UI and email tests against a Dockerised environment, 11 defects and risks logged, [live Allure report](https://nikolay-chillev.github.io/magento-qa/) | Python, Pytest, Playwright, Docker, Allure |
 | [bg-test-data](https://github.com/Nikolay-Chillev/bg-test-data) | Bulgarian test data generator published on PyPI — EGN, EIK, IBAN with valid checksums | Python, PyPI |
 | [Restful Booker API Framework](https://github.com/Nikolay-Chillev/restful-booker-api-framework) | Enterprise-grade API test automation with 89 tests, Allure reporting, and CI/CD | Python, Pytest, Allure, Docker |
 | [Playwright SauceDemo](https://github.com/Nikolay-Chillev/playwright-saucedemo) | E2E automation with CI/CD and HTML reports | TypeScript, Playwright |
