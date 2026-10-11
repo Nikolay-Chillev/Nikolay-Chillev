@@ -7,9 +7,9 @@
 ### What I Do
 
 - Design and build test automation frameworks from scratch
-- API testing with Python, Pytest, and Requests
-- UI testing with Playwright (Python and TypeScript)
-- Performance testing with JMeter
+- API testing with Python, Pytest and Requests, REST and GraphQL
+- UI testing with Playwright (Python and TypeScript) across Chromium, Firefox and WebKit
+- Email, accessibility (axe-core) and performance testing (k6, JMeter)
 - CI/CD pipelines with GitHub Actions and Docker
 
 ---
@@ -28,6 +28,7 @@
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![JMeter](https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 **Tools & Infrastructure:**
@@ -44,11 +45,22 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| [Magento QA](https://github.com/Nikolay-Chillev/magento-qa) | Test automation for a Magento 2 store — API, UI and email tests against a Dockerised environment, 11 defects and risks logged, [live Allure report](https://nikolay-chillev.github.io/magento-qa/) | Python, Pytest, Playwright, Docker, Allure |
+| [Magento QA](https://github.com/Nikolay-Chillev/magento-qa) | Test automation for a Magento 2.4.9 store: API, GraphQL, UI, email, accessibility and performance tests, nightly in three browsers. 19 defects and risks logged, 4 reported to Magento. [Live Allure report](https://nikolay-chillev.github.io/magento-qa/) | Python, Pytest, Playwright, k6, Docker, Allure |
+| [pytest-mailpit](https://github.com/Nikolay-Chillev/pytest-mailpit) | pytest plugin and typed client for testing real emails with Mailpit, published on PyPI | Python, pytest, PyPI |
 | [bg-test-data](https://github.com/Nikolay-Chillev/bg-test-data) | Bulgarian test data generator published on PyPI — EGN, EIK, IBAN with valid checksums | Python, PyPI |
 | [Restful Booker API Framework](https://github.com/Nikolay-Chillev/restful-booker-api-framework) | Enterprise-grade API test automation with 89 tests, Allure reporting, and CI/CD | Python, Pytest, Allure, Docker |
 | [Playwright SauceDemo](https://github.com/Nikolay-Chillev/playwright-saucedemo) | E2E automation with CI/CD and HTML reports | TypeScript, Playwright |
 | [JMeter Performance Project](https://github.com/Nikolay-Chillev/jmeter-performance-project) | Performance testing for JSONPlaceholder API | JMeter |
+
+---
+
+### Open Source
+
+- **Magento 2**: reported four bugs found while testing 2.4.9, each with steps and the cause: [cart quantities over REST](https://github.com/magento/magento2/issues/41429), [free shipping with Flat Rate](https://github.com/magento/magento2/issues/41431), [a stale header after a quick sign-in](https://github.com/magento/magento2/issues/41461) and [the main menu hidden from screen readers](https://github.com/magento/magento2/issues/41512). Fixes for the first two have been proposed.
+- **magento2-in-a-box**: [diagnosed an Elasticsearch crash](https://github.com/controlaltdelete-nl/magento2-in-a-box/pull/50) on the first start of the image; the fix went into the [base image](https://github.com/controlaltdelete-nl/magento2-docker-base-images/pull/6), with credit.
+- **django-modern-rest**: [Bulgarian translation](https://github.com/wemake-services/django-modern-rest/pull/848) (merged).
+- **mengram**: [unit tests for the Python SDK client](https://github.com/alibaizhanov/mengram/pull/26) (merged).
+- **On PyPI**: [bg-test-data](https://pypi.org/project/bg-test-data/) and [pytest-mailpit](https://pypi.org/project/pytest-mailpit/).
 
 ---
 
