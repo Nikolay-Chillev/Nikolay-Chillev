@@ -45,7 +45,7 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| [Magento QA](https://github.com/Nikolay-Chillev/magento-qa) | Test automation for a Magento 2.4.9 store: API, GraphQL, UI, email, accessibility and performance tests, nightly in three browsers. 19 defects and risks logged, 4 reported to Magento. [Live Allure report](https://nikolay-chillev.github.io/magento-qa/) | Python, Pytest, Playwright, k6, Docker, Allure |
+| [Magento QA](https://github.com/Nikolay-Chillev/magento-qa) | Test automation for a Magento 2.4.9 store, [released as v1.0](https://github.com/Nikolay-Chillev/magento-qa/releases/tag/v1.0.0) after ten nightly runs in a row without a failure: 225 API, GraphQL, UI, email, accessibility and performance tests, nightly in three browsers. 19 defects and risks logged, 4 reported to Magento. [Live Allure report](https://nikolay-chillev.github.io/magento-qa/) | Python, Pytest, Playwright, k6, Docker, Allure |
 | [pytest-mailpit](https://github.com/Nikolay-Chillev/pytest-mailpit) | pytest plugin and typed client for testing real emails with Mailpit, published on PyPI | Python, pytest, PyPI |
 | [bg-test-data](https://github.com/Nikolay-Chillev/bg-test-data) | Bulgarian test data generator published on PyPI — EGN, EIK, IBAN with valid checksums | Python, PyPI |
 | [Restful Booker API Framework](https://github.com/Nikolay-Chillev/restful-booker-api-framework) | Enterprise-grade API test automation with 89 tests, Allure reporting, and CI/CD | Python, Pytest, Allure, Docker |
@@ -56,7 +56,7 @@
 
 ### Open Source
 
-- **Magento 2**: reported four bugs found while testing 2.4.9, each with steps and the cause: [cart quantities over REST](https://github.com/magento/magento2/issues/41429), [free shipping with Flat Rate](https://github.com/magento/magento2/issues/41431), [a stale header after a quick sign-in](https://github.com/magento/magento2/issues/41461) and [the main menu hidden from screen readers](https://github.com/magento/magento2/issues/41512). Fixes for the first two have been proposed.
+- **Magento 2**: reported four bugs found while testing 2.4.9, each with steps and the cause: [cart quantities over REST](https://github.com/magento/magento2/issues/41429), [free shipping with Flat Rate](https://github.com/magento/magento2/issues/41431), [a stale header after a quick sign-in](https://github.com/magento/magento2/issues/41461) and [the main menu hidden from screen readers](https://github.com/magento/magento2/issues/41512). Adobe confirmed the accessibility report, and fixes have been proposed for three of them.
 - **magento2-in-a-box**: [diagnosed an Elasticsearch crash](https://github.com/controlaltdelete-nl/magento2-in-a-box/pull/50) on the first start of the image; the fix went into the [base image](https://github.com/controlaltdelete-nl/magento2-docker-base-images/pull/6), with credit.
 - **django-modern-rest**: [Bulgarian translation](https://github.com/wemake-services/django-modern-rest/pull/848) (merged).
 - **mengram**: [unit tests for the Python SDK client](https://github.com/alibaizhanov/mengram/pull/26) (merged).
